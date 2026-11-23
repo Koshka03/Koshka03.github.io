@@ -1,6 +1,6 @@
 // インド旅行攻略本 Service Worker
 // 版を上げるたびに VERSION を変更すること。新キャッシュが全部揃ってから旧キャッシュを破棄する。
-const VERSION = 'v2-20261123';
+const VERSION = 'v2-20261124';
 const CACHE = 'india-guidebook-' + VERSION;
 const CORE = [
   './',
@@ -8,6 +8,7 @@ const CORE = [
   './1121.html',
   './1122.html',
   './1123.html',
+  './1124.html',
   './manifest.webmanifest',
   './icon.svg'
 ];
